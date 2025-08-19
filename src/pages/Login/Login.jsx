@@ -4,7 +4,7 @@
 // const Login = () => {
 //   return (
 //     <div className='login'>
-//       <div class="box">HTML5 games
+//       <div class="box">
 //   <div class="log-in">
 //     <div class="loginBx">
 //       <h2>
