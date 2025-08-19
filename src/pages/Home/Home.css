@@ -1,0 +1,49 @@
+.header{
+    position: relative;
+}
+.banner-img{
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -weblit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+.header-title{
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    text-align: center;
+}
+.search__content--wrapper{
+     position: absolute;
+    width: 100%;
+    top: 300px;
+    text-align: center;
+}
+.search{
+    padding: 8px;
+    border-radius:20px;
+    width:25%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-right: 8px;
+    overflow: hidden;
+    font-size: 18px;
+    outline: white;
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+    color: white;
+}
+.fa-magnifying-glass:hover {
+    color:blue;
+    transition: all 800ms ease;
+}
+
+.click {
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.click:active {
+   color: #c3dedd;
+    transform: scale(0.75);
+    transition: all 100ms ease;
+}
