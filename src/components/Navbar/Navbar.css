@@ -3,9 +3,8 @@
     padding: 20px 6%;
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    position: relative;
     background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 10%, transparent);
-    z-index: 1;
 }
 .nav-logo{
     width: 20%;
@@ -86,5 +85,14 @@
 .link__hover-effect:hover:after {
     left: 0;
     width: 100%;
+}
+.theme-toggle{
+    background-color: black;
+    padding: 12px;
+}
+.fa-moon{
+    color: white;
+    background-color: black;
+    font-size: 16px;
 }
 

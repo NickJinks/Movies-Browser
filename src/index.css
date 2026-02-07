@@ -5,8 +5,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+html, body{
     background: black;
     color: white;
     font-family:'poppins';
+    height: 100%;
+    
 }
+html{
+    scroll-behavior: smooth;
+}
+.app__wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content{
+    flex: 1;
+}
+
+

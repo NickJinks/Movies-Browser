@@ -1,0 +1,22 @@
+.movie__details {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 100px;
+  color: white;
+  line-height: 2.5;
+  font-size: 20px;
+}
+
+.movie__details img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.movie__details--info {
+  max-width: 600px;
+}
+.back__button{
+  padding: 8px 4px;
+  font-size: 14px;
+}
